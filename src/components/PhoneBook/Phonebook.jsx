@@ -28,6 +28,7 @@ const styles = {
     marginTop: 60,
     padding: 40,
     borderRadius: '35px',
+    color: 'fff',
   },
   loading: {
     marginBottom: 2,
@@ -67,7 +68,7 @@ const Phonebook = () => {
 
       {isAuthenticated && (
         <div style={styles.contactsSection}>
-          <Typography variant="h2" style={{ margin: '40px 0', fontSize: '36px', fontWeight: 600, }}>
+          <Typography variant="h2" style={{ margin: '40px 0', fontSize: '36px', fontWeight: 600, color: 'fff' }}>
             Contacts
           </Typography>
           <Filter />

@@ -6,8 +6,7 @@ import TextField from "@mui/material/TextField";
 import Button from '@mui/material/Button';
 import { Report } from 'notiflix/build/notiflix-report-aio';
 import Typography from '@mui/material/Typography';
-import { FlashOff } from "@mui/icons-material";
-import { withTheme } from "@emotion/react";
+
 
 const ContactForm = () => {
   const dispatch = useDispatch();
@@ -118,7 +117,7 @@ const ContactForm = () => {
         sx={{
           width: "100%",
           backgroundColor: "#000",
-          color: "000",
+          color: "fff",
           '&:hover': {
             backgroundColor: "#2a3a8a",
           },

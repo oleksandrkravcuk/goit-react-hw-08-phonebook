@@ -75,8 +75,8 @@ button {
   padding: 16px;
   font-size: 18px;
   background: rgb(199,251,63);
-  background: radial-gradient(circle, rgba(199,251,63,1) 0%, rgba(64,177,245,1) 100%);
-  color: #030303;
+  background: radial-gradient(circle, rgba(199,251,63,0.5) 0%, rgba(64,177,245,0.5) 100%);
+  color: #ffd4d4;
   border: none;
   border-radius: 32px;
   cursor: pointer;
@@ -122,7 +122,7 @@ li:last-child {
   margin: auto;
   border-radius: 35px;
   text-align: center;
-  color: #181a1b;
+  color: #d4eaf5;
 }
 .homecontainer{
     background-color: #18b960;
