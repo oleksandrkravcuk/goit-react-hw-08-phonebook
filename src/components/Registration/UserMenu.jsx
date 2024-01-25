@@ -46,11 +46,11 @@ const UserMenu = () => {
             onClick={handleLogout}
             sx={{
               marginTop: (theme) => theme.spacing(0),
-              backgroundColor: '#6de88a',
-              color: '#fff',
+              backgroundColor: '#000',
+              color: '000',
               borderRadius: 30,
               '&:hover': {
-                backgroundColor: '#6de88a',
+                backgroundColor: '#000',
               },
             }}
           >
@@ -58,7 +58,7 @@ const UserMenu = () => {
           </Button>
         </>
       ) : (
-        <p style={{ color: 'fff' , fontWeight: 'bold'}}>User not logged in</p>
+        <p style={{ color: 'bbb' , fontWeight: 'bold'}}>User not logged in</p>
       )}
     </Paper>
   );

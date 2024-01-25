@@ -23,7 +23,7 @@ export const App = () => {
   return (
     <div style={{  height: '100%', }}>
       <Navigation />
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', color: 'fff'}}>
         <Routes>
           <Route path="/" element={isAuthenticated ? <Navigate to="/contacts" /> : <Home />} />
           <Route path="/register" element={isAuthenticated ? <Navigate to="/contacts" /> : <Register />} />

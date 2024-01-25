@@ -26,7 +26,6 @@ const styles = {
 
   contactsSection: {
     marginTop: 60,
-    backgroundColor: 'radial-gradient(circle, rgba(199,251,63,0.2945553221288515) 0%, rgba(64,177,245,0.22452731092436973) 100%)',
     padding: 40,
     borderRadius: '35px',
   },

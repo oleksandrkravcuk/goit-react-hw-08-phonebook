@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const styles ={ 
     message: {
         color: '#fff',
-        backgroundColor: '#3498db',
+        backgroundColor: 'fff',
         padding: 4,
         borderRadius: 8,
         textAlign: 'center',

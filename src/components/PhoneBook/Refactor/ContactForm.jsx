@@ -6,6 +6,8 @@ import TextField from "@mui/material/TextField";
 import Button from '@mui/material/Button';
 import { Report } from 'notiflix/build/notiflix-report-aio';
 import Typography from '@mui/material/Typography';
+import { FlashOff } from "@mui/icons-material";
+import { withTheme } from "@emotion/react";
 
 const ContactForm = () => {
   const dispatch = useDispatch();
@@ -87,11 +89,11 @@ const ContactForm = () => {
         boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
       }}
       onSubmit={handleSubmit}
-    ><Typography variant="h1" style={{ fontWeight: 600, fontSize: 32}}>
+    ><Typography variant="h1" style={{ fontWeight: 600, fontSize: 32, color: 'fff'}}>
     Phonebook
   </Typography>
       <TextField
-        sx={{ width: "100%" }}
+        sx={{ width: "100%", color: 'fff' }}
         label="Name"
         type="text"
         name="name"
@@ -116,7 +118,7 @@ const ContactForm = () => {
         sx={{
           width: "100%",
           backgroundColor: "#000",
-          color: "#fff",
+          color: "000",
           '&:hover': {
             backgroundColor: "#2a3a8a",
           },

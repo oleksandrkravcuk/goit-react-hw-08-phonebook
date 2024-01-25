@@ -31,7 +31,7 @@ const Login = () => {
     <div
       sx={{
         padding: theme => theme.spacing(3),
-        maxWidth: 400,
+        maxWidth: 100,
         margin: 'auto',
         marginTop: theme => theme.spacing(3),
       }}

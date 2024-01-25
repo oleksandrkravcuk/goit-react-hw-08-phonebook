@@ -13,8 +13,7 @@ const Navigation = () => {
       {showMenu && (
         <div style={{
           padding: '16px',
-          backgroundColor: 'rgba(36,74,50,0.14609593837535018',
-          color: '#fff',
+          color: 'black',
           boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.1)',
           fontWeight: 600,
           fontSize: '28px'
