@@ -86,13 +86,14 @@ const ContactForm = () => {
         borderRadius: 15,
         backgroundColor: "rgba(199,251,63,0.10407913165266103) 0%",
         boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+        color: 'fff'
       }}
       onSubmit={handleSubmit}
     ><Typography variant="h1" style={{ fontWeight: 600, fontSize: 32, color: 'fff'}}>
     Phonebook
   </Typography>
       <TextField
-        sx={{ width: "100%", color: 'fff' }}
+        sx={{ width: "100%" }}
         label="Name"
         type="text"
         name="name"
