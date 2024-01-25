@@ -75,7 +75,6 @@ const ContactList = () => {
                 '&:hover': {
                   backgroundColor: '#2a3a92',
                 },
-               
                 disabled: {
                   backgroundColor: '#ccc',
                   color: '#666',

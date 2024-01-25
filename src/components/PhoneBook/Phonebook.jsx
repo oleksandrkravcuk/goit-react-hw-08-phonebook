@@ -29,6 +29,9 @@ const styles = {
     padding: 40,
     borderRadius: '35px',
     color: 'fff',
+    backgroundColor: 'rgba(34,59,43,0.7)',
+    border: '1px solid #00c2f5'
+    
   },
   loading: {
     marginBottom: 2,
