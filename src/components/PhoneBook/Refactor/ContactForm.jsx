@@ -84,7 +84,7 @@ const ContactForm = () => {
         margin: "auto",
         padding: theme => theme.spacing(7),
         borderRadius: 15,
-        backgroundColor: "rgba(199,251,63,0.10407913165266103) ",
+        backgroundColor: "rgba(199,251,63,1) ",
         boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
         color: 'fff'
       }}
