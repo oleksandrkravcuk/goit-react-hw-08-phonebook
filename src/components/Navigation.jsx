@@ -18,7 +18,7 @@ const Navigation = () => {
           fontWeight: 600,
           fontSize: '28px'
         }}>
-          <div style={{ listStyle: 'none', padding: 0, display: 'flex',  gap: '676px', backgroundColor: 'rgba(36,74,50,0.14609593837535018' }}>
+          <div style={{ listStyle: 'none', padding: 0, display: 'flex',  gap: '566px', justifyContent: 'space-between', backgroundColor: 'rgba(36,74,50,0.14609593837535018' }}>
             <Button component={Link} to="/" style={{ color: '#fff', fontSize: '24px', fontWeight: 500, transition: 'color 0.3s ease-in-out', '&:hover': { color: '#FFC107' } }}>
               Home
             </Button>
